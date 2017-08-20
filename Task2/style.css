@@ -1,8 +1,9 @@
+
 aside {
     width: 23.3%;
     float: right;
     margin-left: 0;
-    margin-top: 20px
+    margin-top: 20px;
 }
 
 aside p{
@@ -15,7 +16,29 @@ article{
     width:32.2%;
    
 }
-div{
+iframe{
+    float:right;
+	
+	margin-left:0;
+    
+}
+
+div {
     width:75%;
 
+}
+
+iframe:focus { 
+    outline: none;
+}
+
+iframe[seamless] { 
+    display: block;
+}
+
+.camp {
+	margin-top:10px;
+  float:right;
+  margin-left:5px;
+  
 }
