@@ -1,11 +1,11 @@
 
-aside {
-    width: 23.3%;
-    float: right;
-    margin-left: 0;
-    margin-top: 20px;
+aside{
+	float:right;
+	width:16%;
+	background:#99b898;
+	text-align:center;
+	height:900px;
 }
-
 aside p{
     margin: 0;
     padding-top: 2px;
@@ -23,6 +23,10 @@ iframe{
     
 }
 
+h3{
+	background:yellow;
+}
+
 div {
     width:75%;
 
@@ -35,9 +39,16 @@ iframe:focus {
 iframe[seamless] { 
     display: block;
 }
+.boxed {
+  
+  border: 1px solid green ;
+  margin-right: 5px;
+  background-color:#FAD7A0;
+  
+}
 
 .camp {
-	margin-top:10px;
+  margin-top:10px;
   float:right;
   margin-left:5px;
   
