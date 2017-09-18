@@ -57,12 +57,18 @@
               </form>
           </div>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
+           
+             <li><button id="popup" onclick="div_show()"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button></li>
+			 <script>function div_show() {
+document.getElementById('abc').style.display = "block";
+}</script>
 
           </ul>
         </div><!-- /.navbar-collapse -->
       </nav>
 
+<!-- Popup Div Ends Here -->
+</div>
    </header>
    <div class="container-fluid">
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
